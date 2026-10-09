@@ -88,3 +88,25 @@ img {
 
 footer {
     background-color: #F8D7E8;
+    text-align: center;
+    padding: 15px;
+    color: #75465C;
+}
+
+@media (max-width: 650px) {
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    aside, section {
+        width: 100%;
+    }
+
+    .barra-navegacion {
+        gap: 8px;
+    }
+}
