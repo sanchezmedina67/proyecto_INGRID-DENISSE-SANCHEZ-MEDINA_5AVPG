@@ -93,20 +93,3 @@ footer {
     color: #75465C;
 }
 
-@media (max-width: 650px) {
-    header {
-        flex-direction: column;
-    }
-
-    main {
-        flex-direction: column;
-    }
-
-    aside, section {
-        width: 100%;
-    }
-
-    .barra-navegacion {
-        gap: 8px;
-    }
-}
